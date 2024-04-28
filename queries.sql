@@ -11,4 +11,4 @@ WHERE `Username` = 'JohnDoe';
 
 -- Delete a user
 DELETE FROM `Users`
-WHERE `UserID` = 1;
+WHERE `id` = 1;
