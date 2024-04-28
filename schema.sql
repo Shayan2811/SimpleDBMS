@@ -15,7 +15,7 @@ CREATE TABLE `Users` (
 
 -- Create a table for products
 CREATE TABLE `Products` (
-    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `id` INT AUTO_INCREMENT,
     `ProductName` VARCHAR(100) NOT NULL,
     `Price` DECIMAL(10, 2) NOT NULL,
     PRIMARY KEY (`id`)
